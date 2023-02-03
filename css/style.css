@@ -150,7 +150,7 @@ img {
     .container { 
         max-width: 100%;
     }
-
+ }
  /* max 480px in giu' */
  @media screen and (max-width: 480px) {
 
