@@ -124,6 +124,69 @@ img {
     margin-bottom: 2.5rem;
 }
 
+.unico {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    border: 1px solid black;
+}
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* prova bonus */
+ @media screen and (max-width: 1160px) {
+   
+ }
+
+ /* max 768 in giu' */
+ @media screen and (max-width: 768px) {
+    .container { 
+        max-width: 768px;
+    }
+ }
+
+ /* max 480px in giu' */
+ @media screen and (max-width: 480px) {
+
+    body {
+        max-width: 480px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .row { 
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .lessons .col, .steps .col  {
+        width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+    
+    .why-us .col-left {
+        width: 100%;
+    }
+ }
+
+
+/* ----------- */
+ @media screen and (max-width: 768px) {
+    .unico {
+        background-color: yellow;
+    }
+ }
+
+ /* max 480px in giu' */
+ @media screen and (max-width: 480px) {
+    .unico {
+        background-color: aqua;
+    }
+ }
